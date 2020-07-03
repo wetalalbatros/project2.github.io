@@ -1,0 +1,96 @@
+/*EDITOR*/
+
+.editor{
+  padding-top: 129px;
+  padding-bottom: 70px;
+
+  &-title{
+    font-size: 54px;
+    font-weight: bold;
+    color: rgba(99, 92, 115, 255);
+    text-align: center;
+    font-family: $montserat;
+    text-transform: uppercase;
+  }
+
+  &-subtitle{
+    color: #666666;
+    margin-top: 38px;
+    width: 75%;
+    margin-bottom: 36px;
+    text-align: center;
+    font-size: 21px;
+    font-family: $lato;
+  }
+
+  &-buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  &-item{
+    margin-right: 10px;
+  }
+}
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.git-count{
+  background-color: $white;
+  padding-left: 5px;
+}
+
+.social-count{
+  text-decoration: none;
+  padding: 2px 5px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #24292e;
+  vertical-align: top;
+  background-color: $white;
+  border: 1px solid rgba(27,31,35,.2);
+  border-left: 0;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.github-button{
+
+}
+
+@media (max-width: 992px) {
+  .editor-title {
+    font-size: 42px;
+  }
+
+  .editor-subtitle{
+    font-size: 21px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 448px)  {
+  .editor-title{
+    font-size: 26px;
+  }
+
+  .editor-subtitle{
+    font-size: 14px;
+  }
+
+  .editor-buttons{
+    flex-wrap: wrap;
+  }
+
+  .editor-item{
+    width: 40%;
+    margin-bottom: 10px;
+  }
+}
+
+
